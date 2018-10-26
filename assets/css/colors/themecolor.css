@@ -1,0 +1,13 @@
+.top-nav-collapse .navbar-brand,
+.top-nav-collapse .navbar-brand:hover,
+{
+    background: #8089ff;
+}
+.top-nav-collapse .navbar-brand,
+{
+    -webkit-box-shadow: 0px 0px 0px 6px rgba(128, 137, 255, 0.4);
+    -moz-box-shadow: 0px 0px 0px 6px rgba(128, 137, 255, 0.4);
+    -ms-box-shadow: 0px 0px 0px 6px rgba(128, 137, 255, 0.4);
+    -o-box-shadow: 0px 0px 0px 6px rgba(128, 137, 255, 0.4);
+    box-shadow: 0px 0px 0px 6px rgba(128, 137, 255, 0.4);
+}

@@ -1,0 +1,89 @@
+html
+{
+  overflow-x: hidden !important;
+}
+body
+{
+  font-family:'Lato',sans-serif;
+  overflow-x:hidden;
+}
+*
+{
+  outline:none!important;
+  /*text-decoration:none!important;*/
+}
+/* styling of navbar*/
+.navbar
+{
+  width:100% !important;
+}
+.overlay
+{
+  width:100%;
+  margin-right:0;
+}
+
+.navbar-header
+{
+  margin-left: 20px;
+}
+
+#navbartoggler
+{
+  margin-right:0;
+  float: right !important;
+  margin-left: 30%;
+}
+.active #navbartoggler ul li a:hover
+{
+  font-family:'Droid Sans', serif;
+  text-decoration: underline !important;
+}
+.shrink/*Style for shrinking the navbar on scrolling*/
+{
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.5px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-bottom: none;
+}
+/*end of navbar style*/
+
+/*for testing only*/
+#home
+{
+    background: url("../img/testimg.jpg");
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#services {
+    background: gray;
+    height: 100vh;
+    width: 100%;
+}
+#products {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+#ongoing-research {
+    background-color: rgb(154, 45, 45);
+    height: 100vh;
+    width: 100%;
+}
+#partnership {
+    background: gray;
+    height: 100vh;
+    width: 100%;
+}
+#about {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+#contact {
+    background-color: rgb(154, 45, 45);
+    height: 100vh;
+    width: 100%;
+}
