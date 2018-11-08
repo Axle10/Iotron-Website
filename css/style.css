@@ -1,0 +1,695 @@
+.about .mobile-features .nav-pills>li.active-icon>a,
+.body-plan .price-plan,
+#accordion .panel:before,
+.subscribe-place,
+.subscribe-box .custom-input button.btn,
+#scroll-top,
+#loading-mask,
+.single-team-member .bttn-appnova-gradient:before,
+.social-gradient:before,
+.left-aboutApp .icon-feat:before,
+.right-aboutApp .icon-feat:before,
+.left-aboutApp .icon-feat:after,
+.right-aboutApp .icon-feat:after,
+.icon-feat.active-service,
+.icon-feat.active-service,
+.video-app02 .videoApp-place a i,
+.pricing-table02 .ribbon span,
+.pricing-table02 .pricingTable02 .title,
+.history-app02,
+.gallery-feed>a:before,
+.about03 .mobile-features .nav-pills>li.active-icon>a,
+.random-feat03 .work03-progress .bg-color-base,
+.pricingTable03,
+.sidebar-title h4,
+.search-sidebar .search-form button,
+.tab-recentposts .nav>li>a:before,
+.newsletter-sidebar .newsletter-form button,
+.share-box {
+    background: #8089ff;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -ms-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff)
+}
+
+
+.home,
+.home02,
+.home03,
+.statistics,
+.swiper-slide,
+.video-app,
+.history-app,
+.contact,
+.download,
+.features02,
+.statistics02,
+.video-app02,
+.video-app02 .videoApp-place,
+.our-clients02,
+.contact02,
+.features03,
+.statistics03,
+.video-app03,
+.video-app03 .videoApp-place,
+.history-app03,
+.contact03,
+.header-blog {
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -ms-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important
+}
+
+.video-app {
+    background: url('../img/bg/bg-video.jpg') no-repeat center center fixed;
+    position: relative;
+    text-align: center
+}
+
+.video-app:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(../img/svg/wings2.svg) bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    z-index: 1
+}
+
+
+.video-app02 {
+    background: url('../img/bg/bg-videoAppDiv.jpg') no-repeat center center fixed
+}
+
+.video-app02 .videoApp-place {
+    background: url('../img/bg/bg-videoAppDiv.jpg') no-repeat center center;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    position: relative;
+    z-index: 9
+}
+
+.video-app02 .videoApp-overlay {
+    background: rgba(255, 255, 255, .9);
+    width: 100%;
+    height: 100%
+}
+
+.video-app02 .videoApp-place a {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.video-app02 .videoApp-place a i {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 26px;
+    -webkit-box-shadow: 0 0 0 0 rgba(128, 137, 255, 0.9);
+    -moz-box-shadow: 0 0 0 0 rgba(128, 137, 255, 0.9);
+    -o-box-shadow: 0 0 0 0 rgba(128, 137, 255, 0.9);
+    box-shadow: 0 0 0 0 rgba(128, 137, 255, 0.9);
+    -webkit-animation: won 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: won 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: won 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: won 1.25s infinite cubic-bezier(0.66, 0, 0, 1)
+}
+
+.video-app02 .bg-videoApp {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background: rgba(255, 255, 255, .5);
+    right: 53px;
+    bottom: -12px
+}
+
+.video-app02 .bg-videoApp:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .3);
+    right: -12px;
+    bottom: -10px
+}
+
+.video-app02 .videoApp-text {
+    color: #fff
+}
+
+.video-app02 .videoApp-text h4 {
+    margin: 0;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 800
+}
+
+.video-app02 .videoApp-text p {
+    margin: 0;
+    color: #fff;
+    line-height: 28.5px;
+    font-size: 19px;
+    font-weight: 100
+}
+
+.video-app02 .videoApp-button {
+    margin-top: 40px
+}
+
+.video-app03 .videoApp-place {
+    background: url('../img/bg/bg-videoAppDiv.jpg') no-repeat center center;
+    width: 800px;
+    height: 414px;
+    text-align: center;
+    line-height: 414px;
+    z-index: 9;
+    margin: auto
+}
+
+.videoApp-content {
+    width: 100%;
+    position: absolute;
+    z-index: 11
+}
+
+.video-app03 .pulse {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    position: relative;
+    display: inline-block
+}
+
+.video-app03 .pulse:before,
+.video-app03 .pulse:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    opacity: 0;
+    animation: morePulse 1.5s linear infinite
+}
+
+.video-app03 .pulse:after {
+    animation-delay: .5s
+}
+
+.video-app02 .videoApp-place {
+    width: auto
+}
+.video-app02 .bg-videoApp {
+    display: none
+}
+
+.video-app02 .videoApp-place {
+    margin: auto;
+    margin-bottom: 60px
+}
+
+.videoApp-content {
+        position: static
+}
+.video-app03 .videoApp-place {
+    width: auto;
+    height: auto
+}
+.video-app02 .videoApp-place {
+        width: auto;
+        margin-bottom: 70px
+    }
+    .video-app02 .bg-videoApp {
+        left: 53px;
+        right: auto
+    }
+    .video-app02 .videoApp-text h4 {
+        font-size: 26px
+    }
+    .videoApp-content {
+        position: static
+    }
+    .video-app03 .videoApp-place {
+        width: auto;
+        height: auto
+    }
+
+
+    .overlay {
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .9));
+    background: -moz-linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .9));
+    background: -ms-linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .9));
+    background: -o-linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .9));
+    background: linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .9))
+}
+
+.statistics .overlay {
+    padding: 125px 0 100px;
+    padding-top: 250px
+}
+
+.history-app .overlay {
+    padding: 100px 0 0
+}
+
+.contact02 .overlay {
+    padding-top: 200px
+}
+
+.features03 .overlay {
+    padding-top: 200px
+}
+
+ .row.secRowFooter .copyright-design {
+        line-height: 24px
+    }
+
+
+    .bttn-appnova-gradient {
+    background: #FFF;
+    display: inline-block;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    letter-spacing: .7px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 3
+}
+
+.bttn-appnova-gradient:hover span,
+.bttn-appnova-gradient span,
+.bttn-appnova-gradient i {
+    background: #8089ff;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff);
+    -webkit-background-clip: text;
+    color: transparent
+}
+
+.bttn-appnova-gradient i {
+    margin-right: 10px;
+    font-size: 17px
+}
+
+.bttn-appnova-gradient:hover>i {
+    color: #FFF;
+    background: transparent;
+    position: relative;
+    z-index: 2
+}
+
+.bttn-appnova-gradient:before {
+    background: #8089ff!important;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff)!important;
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff)!important;
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff)!important;
+    background: linear-gradient(-45deg, #4e54c8, #8089ff)!important;
+    color: #FFF!important
+}
+
+.bttn-appnova-gradient:hover,
+.bttn-appnova-gradient:focus,
+.bttn-appnova-gradient:active {
+    text-decoration: none;
+    outline: 0
+}
+
+.bttn-appnova-gradient {
+    color: #FFF;
+    background: transparent
+}
+
+.bttn-appnova-gradient:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50px
+}
+
+.bttn-appnova-gradient span {
+    position: relative;
+    z-index: 2;
+    font-weight: 800
+}
+
+.bttn-appnova-gradient:hover {
+    background: #FFF
+}
+
+.bttn-appnova-gradient:hover:before {
+    opacity: 0
+}
+
+.bttn-appnova-gradient {
+    background: #FFF
+}
+
+.bttn-appnova-gradient:before {
+    opacity: 0
+}
+
+.bttn-appnova-gradient:hover {
+    background: transparent
+}
+
+.bttn-appnova-gradient:hover span {
+    color: #FFF;
+    background: transparent
+}
+
+.bttn-appnova-gradient:hover:before {
+    opacity: 1
+}
+
+.bttn-appnova-gradient:hover {
+    -webkit-box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+    -moz-box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+    -o-box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+    box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25)
+}
+
+.bttn-appnova-gradient,
+.bttn-appnova-gradient:before,
+.nav-sec,
+.nav-sec .navbar-brand>img,
+.top-nav-collapse .navbar-brand,
+.nav-sec .navbar-nav>.dropdown>a:hover .dropdown-icon,
+.testimonials-slider.owl-theme .owl-dots .owl-dot span,
+.testimonials-slider.owl-theme .owl-dots .owl-dot.active span,
+.testimonials-slider.owl-theme .owl-dots .owl-dot:hover span,
+.playBut,
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before,
+.social-gradient,
+.social-gradient:before,
+#scroll-top,
+.features02 .tab-pane,
+.features02 .nav-tabs li a span {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+
+.about .mobile-features .nav-pills>li.active-icon>a,
+.body-plan .price-plan,
+#accordion .panel:before,
+.subscribe-place,
+.subscribe-box .custom-input button.btn,
+#scroll-top,
+#loading-mask,
+.single-team-member .bttn-appnova-gradient:before,
+.social-gradient:before,
+.left-aboutApp .icon-feat:before,
+.right-aboutApp .icon-feat:before,
+.left-aboutApp .icon-feat:after,
+.right-aboutApp .icon-feat:after,
+.icon-feat.active-service,
+.icon-feat.active-service,
+.video-app02 .videoApp-place a i,
+.pricing-table02 .ribbon span,
+.pricing-table02 .pricingTable02 .title,
+.history-app02,
+.gallery-feed>a:before,
+.about03 .mobile-features .nav-pills>li.active-icon>a,
+.random-feat03 .work03-progress .bg-color-base,
+.pricingTable03,
+.sidebar-title h4,
+.search-sidebar .search-form button,
+.tab-recentposts .nav>li>a:before,
+.newsletter-sidebar .newsletter-form button,
+.share-box {
+    background: #8089ff;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -ms-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff)
+}
+
+.feat-butt .bttn-appnova-gradient span {
+    position: relative;
+    z-index: 2
+}
+
+.feat-butt .bttn-appnova-gradient:hover {
+    background: #FFF
+}
+
+.feat-butt .bttn-appnova-gradient:hover:before {
+    opacity: 0
+}
+
+.feat-butt .bttn-appnova-gradient span {
+    color: #FFF;
+    background: transparent
+}
+
+.feat-butt .bttn-appnova-gradient:before {
+    opacity: 1
+}
+
+.feat-butt .bttn-appnova-gradient:hover span {
+    background: #8089ff;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff);
+    -webkit-background-clip: text;
+    color: transparent
+}
+
+.single-downloadLink .bttn-appnova-gradient span {
+    font-size: 10px;
+    margin-left: 37px
+}
+
+.single-downloadLink .bttn-appnova-gradient span:last-child {
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .7px
+}
+
+.single-downloadLink .bttn-appnova-gradient {
+    text-align: left
+}
+
+.single-downloadLink .bttn-appnova-gradient i {
+    position: absolute;
+    font-size: 26px;
+    top: 20px
+}
+
+.footer-plan .bttn-appnova-gradient span {
+    position: relative;
+    z-index: 2
+}
+
+.footer-plan .bttn-appnova-gradient:hover {
+    background: #FFF
+}
+
+.footer-plan .bttn-appnova-gradient:hover:before {
+    opacity: 0
+}
+
+.footer-plan .bttn-appnova-gradient span {
+    color: #FFF;
+    background: transparent
+}
+
+.footer-plan .bttn-appnova-gradient:before {
+    opacity: 1
+}
+
+.footer-plan .bttn-appnova-gradient:hover span {
+    background: #8089ff;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff);
+    -webkit-background-clip: text;
+    color: transparent
+}
+
+
+.single-team-member .bttn-appnova-gradient {
+    padding: 0;
+    background: #FFF;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    -moz-box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    -o-box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    letter-spacing: .7px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 3
+}
+
+.single-team-member .bttn-appnova-gradient i {
+    background: #8089ff;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+    font-size: 16px
+}
+
+.single-team-member .bttn-appnova-gradient:hover>i {
+    color: #FFF;
+    background: transparent;
+    position: relative;
+    z-index: 2
+}
+
+.single-team-member .bttn-appnova-gradient:before {
+    color: #FFF
+}
+
+.single-team-member .bttn-appnova-gradient:hover,
+.single-team-member .bttn-appnova-gradient:focus,
+.single-team-member .bttn-appnova-gradient:active {
+    text-decoration: none;
+    outline: 0
+}
+
+.single-team-member .bttn-appnova-gradient {
+    color: #FFF;
+    background: transparent
+}
+
+.single-team-member .bttn-appnova-gradient:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50px
+}
+
+.single-team-member .bttn-appnova-gradient:hover {
+    background: #FFF
+}
+
+.single-team-member .bttn-appnova-gradient:hover:before {
+    opacity: 0
+}
+
+.single-team-member .bttn-appnova-gradient {
+    background: #FFF
+}
+
+.single-team-member .bttn-appnova-gradient:before {
+    opacity: 0
+}
+
+.single-team-member .bttn-appnova-gradient:hover {
+    background: transparent
+}
+
+.single-team-member .bttn-appnova-gradient:hover:before {
+    opacity: 1
+}
+
+.single-team-member .bttn-appnova-gradient:hover {
+    -webkit-box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+    -moz-box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+    -o-box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
+    box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25)
+}
+
+.single-work02 .bttn-appnova-gradient span {
+    position: relative;
+    z-index: 2
+}
+
+.single-work02 .bttn-appnova-gradient:hover {
+    background: #FFF
+}
+
+.single-work02 .bttn-appnova-gradient:hover:before {
+    opacity: 0
+}
+
+.single-work02 .bttn-appnova-gradient span {
+    color: #FFF;
+    background: transparent
+}
+
+.single-work02 .bttn-appnova-gradient:before {
+    opacity: 1
+}
+
+.single-work02 .bttn-appnova-gradient:hover span {
+    background: #4e54c8;
+    background: -webkit-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -moz-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: -o-linear-gradient(-45deg, #4e54c8, #8089ff);
+    background: linear-gradient(-45deg, #4e54c8, #8089ff);
+    -webkit-background-clip: text;
+    color: transparent
+}
