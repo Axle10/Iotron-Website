@@ -14,731 +14,100 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/iotronlogo.jpg" />
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!--Bootstrap links-->
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!-- Bootstrap links-->
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-  <!--Material design links-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
   <!--CSS files-->
-  
+
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/Jumbotron.css">
   <link rel="stylesheet" href="assets/css/colors/themecolor.css" class="color-scheme">
-  <link rel="stylesheet" href="assets/css/style.css">
-  
-    
-    <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    
-
-    <!-- Modernizer Script for old Browsers -->
-    <script src='js/modernizr-2.6.2.min.js'></script>
-
-    
-
-
 
 </head>
 <body>
-    <header id="home" class="home bg-image waves">
-         <div class="overlay">
 
-            <!--Start navigation bar-->
-            <nav class="navbar navbar-default navbar-expand-lg navbar-light nav-sec navbar-fixed-top" id="navigationbar" style="position:fixed !important;">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                      <a class="navbar-brand" href="index.html" title="Iotron Technologies Pvt Ltd."><img src="assets/img/iotronlogo.jpg" alt="Iotron Logo"></a>
-                      <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbartoggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="text-align:right !important;">
-                          <span class="navbar-toggler-icon" align="right"></span>
-                      </button>
-                    </div>
-                    <!-- / navbar-header -->
-                    <div class="collapse navbar-collapse" id="navbartoggler">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"><a class="nav-link" href="#home"><span>HOME</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#services"><span>SERVICES</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#products"><span>PRODUCTS</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#ongoing-research"><span>ONGOING RESEARCH</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#partnership"><span>PARTNERSHIP</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#about"><span>ABOUT US</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contact"><span>CONTACT US</span></a></li>
-                        </ul>
-                    </div>
-                      <!-- end nav-collapse -->
-                </div>
-                <!-- end container -->
-            </nav>
-            <!--end navigation bar-->
-            
-          
-           <!-- Jumbotron-->
-
-            <div class="container"  >
-                <div class="row">
-                    <!-- Start Text Header -->
-                    <div class="col-md-7 col-sm-12">
-                        <div class="header-inner">
-                            <div class="header-content">
-                                <h1 class="home-title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">Create your app page with <span>Appnova</span></h1>
-                                <h4 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">Landing Page is the best way to present your beautiful mobile app, appnova is an App landing page created to make your App looks outstanding between the crowd.</h4>
-                                <div class="bttn-head btn-video wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-                                    <a href="#video-app" class="bttn-appnova-gradient">
-                                        <i class="fa fa-play"></i>
-                                        <span>Demo Video</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Text Header -->
-                    <!-- Start Photo Here -->
-                    <div class="col-md-5 col-sm-12 hidden-sm hidden-xs">
-                        <div class="photo-header">
-                            <img src="assets/img/header-device.png" alt="Appnova Screen" height="100%" width="50%">
-
-                        </div>
-                    </div>
-                    <!-- End Photo Here -->
-                </div>
+    <header>
+        <nav id="navigationbar">
+          <div class="nav-wrapper">
+            <div class="brand-logo" id="logo">
+              <a href="#" class="brand-logo"><img src="assets/img/iotronlogo.jpg"></a>
             </div>
-            <!-- End Container -->
-            <div id="particles-js"></div>
+            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons blue-text text-darken-4">menu</i></a>
+            <ul class="right hide-on-med-and-down" id="navmenu">
+              <li><a href="#home"><span>HOME</span></a></li>
+              <li><a href="#services"><span>SERVICES</span></a></li>
+              <li><a href="#products"><span>PRODUCTS</span></a></li>
+              <li><a href="#about"><span>ABOUT US</span></a></li>
+              <li><a href="#contact"><span>CONTACT US</span></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-nav">
+              <li><a href="#home"><span class="black-text text-lighten-5">HOME</a></span></li>
+              <li><a href="#services"><span class="black-text text-lighten-5">SERVICES</span></a></li>
+              <li><a href="#products"><span class="black-text text-lighten-5">PRODUCTS</span></a></li>
+              <li><a href="#about"><span class="black-text text-lighten-5">ABOUT US</span></a></li>
+              <li><a href="#contact"><span class="black-text text-lighten-5">CONTACT US</span></a></li>
+            </ul>
+          </div>
+        </nav>
 
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-7">
+              <div class="jumbotron">
+                <h1 class="display-5">CREATE YOUR APP PAGE WITH <span>APPNOVA</span></h1>
+                <p class="lead">Landing Page is the best way to present your beautiful mobile app, appnova is an App landing page created to make your App looks outstanding between the crowd.</p>
+                <a href="#" class="btn btn-lg btn-primary"><i class="material-icons left">send</i>Demo Video</a>
+              </div>
+            </div>
+            <div class="col-md-5 col-lg-5">
+              <div class="hide-on-med-and-down" id="headerimg">
+                <img src="assets/img/header-device.png">
+              </div>
+            </div>
         </div>
-        <!-- End of overlay-->
+      </div>
     </header>
 
-    <!--end header-->
-    <br><br>
-    <br><br>
-    
-    <!--Start Download Section-->
-
-    <section id="products" class="download download02" id="services">
-        <div class="overlay pdd100">
-            <div class="container">
-                <!-- Start Section Title -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title02">
-                            <h4 class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Download</h4>
-                            <div class="section-title02-icon wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
-                                <i class="ion-android-star"></i>
-                                <i class="ion-android-star"></i>
-                                <i class="ion-android-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Section Title -->
-                <!-- Start Store Button -->
-                <div class="store-butt">
-                    <div class="row">
-                        <div class="col-md-4 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
-                            <div class="single-downloadLink">
-                                <a href="#" class="bttn-appnova-gradient">
-                                    <i class="fa fa-apple"></i>
-                                    <span>Available on</span>
-                                    <span>Apple Store</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
-                            <div class="single-downloadLink">
-                                <a href="#" class="bttn-appnova-gradient">
-                                    <i class="fa fa-android"></i>
-                                    <span>Available on</span>
-                                    <span>Google Play</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 wow fadeInLeft" data-wow-delay=".6s" data-wow-duration="1s">
-                            <div class="single-downloadLink mgbtt0">
-                                <a href="#" class="bttn-appnova-gradient">
-                                    <i class="fa fa-windows"></i>
-                                    <span>Available on</span>
-                                    <span>Windows Store</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Store Button -->
-                <br>
-                <br>
-
-                <div class="row">
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
-                        <div class="one-statis03 fix-width-left">
-                            <h3 class="statistic-number">345</h3>
-                            <h4>Reviews</h4>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
-                        <div class="one-statis03 fix-width-right">
-                            <h3 class="statistic-number">657</h3>
-                            <h4>Downloads</h4>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay=".6s" data-wow-duration="1s">
-                        <div class="one-statis03 fix-width-left top-rate-mgtt0">
-                            <h3 class="statistic-number">234</h3>
-                            <h4>Top Rate</h4>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay=".8s" data-wow-duration="1s">
-                        <div class="one-statis03 mgbtt0 fix-width-right happy-clients-mgtt0">
-                            <h3 class="statistic-number">546</h3>
-                            <h4>Happy Clients</h4>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </div><!-- end overlay -->
-    </section><!-- end download02 -->
-
-    <!--End Download Section-->
-<!--Start Pricing Table Section-->
-
-    <section id="products" class="pricing-table pdd100">
-        <div class="container">
-            <!-- Start Section Title -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h4 class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Select a Plan</h4>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s" style="color: black;">PRICING TABLE</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- End Section Title -->
-            <!-- Start Pricing Content -->
-            <div class="pricing-content">
-                <div class="row">
-                    <!-- Start Single Item -->
-                    <div class="col-md-4 col-sm-6 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
-                        <div class="single-plan">
-                            <div class="head-plan">
-                                <h4>Standard</h4>
-                            </div>
-                            <div class="body-plan">
-                                <div class="price-plan">
-                                    <h3><sup>$</sup>20</h3>
-                                    <span>Per Month</span>
-                                    <i class="fa fa-user"></i>
-                                </div>
-                                <div class="feat-plan">
-                                    <ul>
-                                        <li>50GB Disk Space</li>
-                                        <li>50 Email Accounts</li>
-                                        <li>50GB Monthly Bandwidth</li>
-                                        <li>10 Subdomains</li>
-                                        <li>15 Domains</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="footer-plan">
-                                <a href="#video-app" class="bttn-appnova-gradient">
-                                    <span>Buy Now</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-4 col-sm-6 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
-                        <div class="single-plan">
-                            <div class="head-plan">
-                                <h4>BUSINESS</h4>
-                            </div>
-                            <div class="body-plan">
-                                <div class="price-plan">
-                                    <h3><sup>$</sup>30</h3>
-                                    <span>Per Month</span>
-                                    <i class="fa fa-briefcase"></i>
-                                </div>
-                                <div class="feat-plan">
-                                    <ul>
-                                        <li>60GB Disk Space</li>
-                                        <li>60 Email Accounts</li>
-                                        <li>60GB Monthly Bandwidth</li>
-                                        <li>15 Subdomains</li>
-                                        <li>20 Domains</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="footer-plan">
-                                <a href="#video-app" class="bttn-appnova-gradient">
-                                    <span>Buy Now</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-4 col-sm-6 wow fadeInLeft" data-wow-delay=".6s" data-wow-duration="1s">
-                        <div class="single-plan mgbtt0">
-                            <div class="head-plan">
-                                <h4>PREMIUM</h4>
-                            </div>
-                            <div class="body-plan">
-                                <div class="price-plan">
-                                    <h3><sup>$</sup>50</h3>
-                                    <span>Per Month</span>
-                                    <i class="fa fa-rocket"></i>
-                                </div>
-                                <div class="feat-plan">
-                                    <ul>
-                                        <li>100GB Disk Space</li>
-                                        <li>100 Email Accounts</li>
-                                        <li>100GB Monthly Bandwidth</li>
-                                        <li>30 Subdomains</li>
-                                        <li>25 Domains</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="footer-plan">
-                                <a href="#video-app" class="bttn-appnova-gradient">
-                                    <span>Buy Now</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div><!-- end row -->
-            </div>
-            <!-- End Pricing Content -->
-        </div><!-- end container -->
-    </section><!-- end pricing-table -->
-
-    <!--End Pricing Table Section-->
-
-
-    <!--Start Video Section-->
-    <section id="products" class="video-app02">
-        <div class="overlay pdd100">
-            <div class="container">
-                <div class="row">
-                    <!-- Start Video Place -->
-                    <div class="col-md-7">
-                        <div class="videoApp-place wow fadeInRight" data-wow-duration="1s">
-                            <div class="videoApp-overlay">
-                                <!-- Add Video Link Here -->
-                                <a href="https://www.youtube.com/watch?v=afj3WB44lko" data-lity=""><i class="fa fa-play"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-videoApp"></div>
-                    </div>
-                    <!-- End Video Place -->
-                    <!-- Start Video Text -->
-                    <div class="col-md-5">
-                        <div class="videoApp-text wow fadeInLeft" data-wow-duration="1s">
-                            <h4>Watch The Video</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum cum ut vitae eum aperiam sapiente amet ullam perferendis numquam earum iure accusamus suscipit nam illo officia ipsa et, hic deserunt?</p>
-                        </div>
-                        <div class="videoApp-button">
-                            <a href="#video-app02" class="bttn-appnova-gradient">
-                                <span>Learn More</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- End Video Text -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </div><!-- end overlay -->
-    </section><!-- end video-app02 -->
-
-    <!--End Video Section-->
-
-    
-    <!--Start Team Section-->
-    <section id="about" class="our-team02">
-        <div class="container">
-            <!-- Start Section Title -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title02">
-                        <h4 class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Meet Our Team</h4>
-                        <div class="section-title02-icon wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
-                            <i class="ion-android-star"></i>
-                            <i class="ion-android-star"></i>
-                            <i class="ion-android-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Section Title -->
-            <!-- Start Our Team Content -->
-            <div class="our-team-content">
-                <div class="row">
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 fix-width-left wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
-                        <div class="team-member">
-                            <div class="member-content">
-                                <img src="assets/img/team/img1.jpg" class="img-responsive" alt="appnova">
-                                <div class="member02-text">
-                                    <h4>Richard Dale</h4>
-                                    <span>CO-Founder</span>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 fix-width-right wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
-                        <div class="team-member">
-                            <div class="member-content">
-                                <img src="assets/img/team/img2.jpg" class="img-responsive" alt="appnova">
-                                <div class="member02-text">
-                                    <h4>Brenda Hansen</h4>
-                                    <span>Marketing Manager</span>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 fix-width-left wow fadeInLeft" data-wow-delay=".6s" data-wow-duration="1s">
-                        <div class="team-member">
-                            <div class="member-content">
-                                <img src="assets/img/team/img3.jpg" class="img-responsive" alt="appnova">
-                                <div class="member02-text">
-                                    <h4>Eric Bush</h4>
-                                    <span>Mobile Developer</span>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Start Single Item -->
-                    <div class="col-md-3 col-sm-6 fix-width-right wow fadeInLeft" data-wow-delay=".8s" data-wow-duration="1s">
-                        <div class="team-member mgbtt0">
-                            <div class="member-content">
-                                <img src="assets/img/team/img4.jpg" class="img-responsive" alt="appnova">
-                                <div class="member02-text">
-                                    <h4>Marlys Dumas</h4>
-                                    <span>UI Developer</span>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div><!-- end row -->
-            </div>
-            <!-- End Our Team Content -->
-        </div><!-- end container -->
-    </section><!-- end our-team02 -->
-
-    <!--End Team Section-->
-
-
-     <!--Start Contact Section-->
-
-    <section id="contact" class="contact02">
-        <div class="overlay pdd100">
-            <div class="container">
-                <!-- Start Section Title -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title02">
-                            <h4 class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Contact Us</h4>
-                            <div class="section-title02-icon wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
-                                <i class="ion-android-star"></i>
-                                <i class="ion-android-star"></i>
-                                <i class="ion-android-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Section Title -->
-                <!-- Start Form Place -->
-                <div class="form-place">
-                    <div class="row">
-                        <!-- Start Info -->
-                        <div class="col-md-4">
-                            <!-- Start Single Item -->
-                            <div class="single-contact02 ffl50 wow fadeInUp" data-wow-duration="1s">
-                                <div class="contact02-icon">
-                                    <i class="ion-ios-location"></i>
-                                </div>
-                                <div class="contact02-text">
-                                    <h4>Address</h4>
-                                    <p>Penns Neck, NJ, USA</p>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Start Single Item -->
-                            <div class="single-contact02 ffr50 wow fadeInUp" data-wow-duration="1s">
-                                <div class="contact02-icon">
-                                    <i class="ion-ios-email"></i>
-                                </div>
-                                <div class="contact02-text">
-                                    <h4>E-Mail</h4>
-                                    <p>info@appnova.com</p>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Start Single Item -->
-                            <div class="single-contact02 ffl50 wow fadeInUp" data-wow-duration="1s">
-                                <div class="contact02-icon">
-                                    <i class="ion-ios-telephone"></i>
-                                </div>
-                                <div class="contact02-text">
-                                    <h4>Phone</h4>
-                                    <p>+609-520-3502</p>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Start Single Item -->
-                            <div class="single-contact02 ffr50 wow fadeInUp" data-wow-duration="1s">
-                                <div class="contact02-icon">
-                                    <i class="ion-ios-world"></i>
-                                </div>
-                                <div class="contact02-text">
-                                    <h4>Website</h4>
-                                    <p><a href="#">www.appnova.com</a></p>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                        </div>
-                        <!-- End Info -->
-                        <!-- Start Contact Form -->
-                        <div class="col-md-8">
-                            <div class="form-touch wow fadeInUp" data-wow-duration="1s">
-                                <form action="#">
-                                    <div class="row">
-                                        <!-- Start Single Input -->
-                                        <div class="col-md-12">
-                                            <div class="single-input">
-                                                <input type="text" placeholder="Full Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Input -->
-                                        <!-- Start Single Input -->
-                                        <div class="col-md-12">
-                                            <div class="single-input">
-                                                <input type="email" placeholder="E-Mail" required>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Input -->
-                                        <!-- Start Single Input -->
-                                        <div class="col-md-12">
-                                            <div class="single-input">
-                                                <input type="text" placeholder="Subject" required>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Input -->
-                                        <!-- Start Single Textarea -->
-                                        <div class="col-md-12">
-                                            <div class="single-input">
-                                                <textarea placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Textarea -->
-                                        <!-- Start Send Button -->
-                                        <div class="col-md-12">
-                                            <div class="button-MSG">
-                                                <a href="#" class="bttn-appnova-gradient">
-                                                    <i class="fa fa-paper-plane"></i>
-                                                    <span>Send Message</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- End Send Button -->
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- End Contact Form -->
-                    </div><!-- end row -->
-
-                </div>
-                <!-- End Form Place -->
-            </div><!-- end container -->
-        </div><!-- end overlay -->
-    </section><!-- end contact02 -->
-
-    <!--End Contact Section-->
-
-    <!--Start Map Section-->
-
-    <section class="map-section">
-        <!-- Start Google Map -->
-        <div class="google-map-area">
-            <div id="contacts" class="map-area">
-                <div id="googleMap" style="width:100%;height:395px;"></div>
-            </div>
+    <section id="products">
+      <div class="container">
+        <h1 class="center-align"><span class="black-text">SCREENSHOTS</span></h1>
+        <div class="carousel">
+          <a href="#one!" class="carousel-item">
+            <img src="assets/img/screenshot/01.png" alt="" class="img-responsive">
+          </a>
+          <a href="#two!" class="carousel-item">
+            <img src="assets/img/screenshot/02.png" alt="" class="img-responsive">
+          </a>
+          <a href="#three!" class="carousel-item">
+            <img src="assets/img/screenshot/03.png" alt="" class="img-responsive">
+          </a>
+          <a href="#four!" class="carousel-item">
+            <img src="assets/img/screenshot/04.png" alt="" class="img-responsive">
+          </a>
+          <a href="#five!" class="carousel-item">
+            <img src="assets/img/screenshot/05.png" alt="" class-"img-responsive">
+          </a>
         </div>
-        <!-- End Google Map -->
-        <!-- Start Map Controls -->
-        <div class="button-map wow fadeInLeft" data-wow-duration="1s">
-            <button class="open-map"><i class="ion-ios-location"></i></button>
-            <button class="close-map"><i class="ion-android-close"></i></button>
-        </div>
-        <!-- End Map Controls -->
-    </section><!-- end map-section -->
+      </div>
+    </section>
 
-    <!--End Map Section-->
+<div style="height: 500px"></div>
 
-    <!--start footer section-->
-    <footer id="footer02" class="footer02">
-        <div class="container">
-            <div class="row oneRowFooter">
-                <!-- Start Footer Text -->
-                <div class="col-md-4 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
-                    <div class="footer-about-app">
-                        <div class="footer02-logo">
-                            <div class="logo-footer-place">
-                                <a href="#">
-                                    <img src="assets/img/iotronlogo.jpg" alt="appnova">
-                                </a>
-                            </div>
-                            <span>Appnova Theme</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem excepturi repellendus sunt quod praesentium aspernatur soluta velit culpa esse, maiores non! Ips.</p>
-
-                    </div>
-                </div>
-                <!-- End Footer Text -->
-                <!-- Start Footer Sitemap -->
-                <div class="col-md-4 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
-                    <div class="footer-sitemap">
-                        <h4>Sitemap</h4>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Screenshots</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Download</a></li>
-                            <li><a href="#">Pricing Table</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Footer Sitemap -->
-                <!-- Start Footer Photos -->
-                <div class="col-md-4 wow fadeInLeft" data-wow-delay=".6s" data-wow-duration="1s">
-                    <div class="footer-photos">
-                        <h4>photos</h4>
-                        <div class="gallery-feed">
-                            <a href="#">
-                                <img src="assets/img/footer/gallery01.jpg" alt="gallery01">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery02.jpg" alt="gallery02">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery03.jpg" alt="gallery03">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery04.jpg" alt="gallery04">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery05.jpg" alt="gallery05">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery06.jpg" alt="gallery06">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery07.jpg" alt="gallery07">
-                            </a>
-                            <a href="#">
-                                <img src="assets/img/footer/gallery08.jpg" alt="gallery08">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Footer Photos -->
-            </div>
-            <!-- Start Copyright & Social Links -->
-            <div class="row secRowFooter">
-                <!-- Start Copyright -->
-                <div class="col-md-8 col-sm-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="copyright-design">
-                        <p>Copyright © 2018 <a href="https://themeforest.net/user/alaa_ahmed/portfolio">ALAA AHMED</a>. All Rights Reserved.</p>
-                    </div>
-                </div>
-                <!-- End Copyright -->
-                <!-- Start Social Links -->
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="footer-links text-center">
-                        <a class="social-gradient" href="#"><i  class='fa fa-facebook'></i></a>
-                        <a class="social-gradient" href="#"><i  class='fa fa-twitter'></i></a>
-                        <a class="social-gradient" href="#"><i  class='fa fa-behance'></i></a>
-                        <a class="social-gradient" href="#"><i  class='fa fa-linkedin'></i></a>
-                        <a class="social-gradient" href="#"><i  class='fa fa-pinterest'></i></a>
-                    </div>
-                </div>
-                <!-- End Social Links -->
-            </div>
-            <!-- End Copyright & Social Links -->
-        </div><!-- end container -->
-    </footer><!-- end footer02 -->
-
-    <!--end footer section-->
-
+    <!--Import jQuery before materialize.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Import materialize js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
 
     <!--JS Files-->
     <script type="text/javascript" src="assets/js/navbar.js"></script>
-    <script type="text/javascript" src="assets/js/particles-lines.js"></script>
-
-    <!-- video js files-->
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/map-conf.js"></script>
-    <!-- Google Map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj9b_nyz33KEaocu6ZOXRgqwwUZkDVEAw"></script>
-
-    <!-- Custom JS -->
-    <script src="assets/js/custom.js"></script>
-
-
-
 
 </body>
 </html>
