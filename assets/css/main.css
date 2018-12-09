@@ -34,10 +34,11 @@ nav ul li a:hover
 }
 header
 {
-  background: url('../img/svg/waves.svg');
+  background: url('../img/svg/waves-shape.svg');
   background-color: #8089ff ;
   z-index:100;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .container
 {
@@ -60,6 +61,7 @@ header
   margin-left: 100px;
   height: 100%;
   width: 50%;
+  z-index: 200;
 }
 .btn
 {
@@ -87,3 +89,35 @@ header
     margin-top: 10%;
 }
 /*end of screenshots section*/
+/*contact section*/
+#contact
+{
+  margin-top: 5%;
+  background-image: url('../img/svg/brush.svg');
+  background-color: #8089ff;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+#contact h1
+{
+  padding-top: 5%;
+}
+#contact .flow-text
+{
+    color: white;
+
+}
+#contact .row
+{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#contact form
+{
+  color: white;
+}
+#contact form input placeholder
+{
+  color: white;
+}
+/*end of contact section*/

@@ -12,7 +12,7 @@ $(document).ready(function ()
 {
   $(".button-collapse").sideNav();
   $(window).scroll(function(){
-    if($(window).scrollTop()>0)//scrolling is more than zero
+    if($(window).scrollTop()>200)//scrolling is more than zero
     {
       $('.nav-wrapper').addClass('white');
       $('#navmenu li a span').css("color", "black");
